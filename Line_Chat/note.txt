@@ -1,0 +1,23 @@
+Channel secret: e58a0f7fb481e1fcee39a064755117e6
+Channel access token: 22C80b9BzNZY3NLQBWaJ6W0CCBr5sCl/9GZkjf7OFU7FGpYvL7qitaJq+31o3pBPBulLNfEr28MO0Jo8ZnTbfS+DlbmK9/+ufDDSnqflGb/CHG+OrywvxUrmNECRCmKY9CezTTDvnzeP+DZhz+zi/gdB04t89/1O/w1cDnyilFU=
+Basic id: @147lvcjv
+
+step 
+1: New Folder
+2: key CMD in URL
+3: pip install virtualenv
+4: virtualenv venv *****
+5: venv\Scripts\activate
+6: code .
+7: New File "app.py"
+8: New Folder "Project"
+9: New File "__init__.py"
+10: New File "Config.py"
+11: insert Code "Channel_secret", "Channel_access_token", "basic_id"
+12: pip install Flask
+13: pip install requests
+
+//forword port
+ngrok http 200
+
+14: Webhook URL = 551d2302.ngrok.io/webhook
